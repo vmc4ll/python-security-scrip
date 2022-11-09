@@ -1,8 +1,7 @@
 import requests 
 import sys 
 
-sub_list = open("wordlist.txt").read() 
-directories = sub_list.splitlines()
+sub_list = open("СЛОВАРЬ.TXT.splitlines()
 
 for dir in directories:
     dir_enum = f"http://{sys.argv[1]}/{dir}.html" 
