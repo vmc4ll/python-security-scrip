@@ -33,7 +33,7 @@ for port in ports:
     
 
 if open_ports: 
-  print ("Open Ports are: ") 
+  print ("open orts: ") 
   print (sorted(open_ports)) 
 else: 
-  print ("Looks like no ports are open :(")
+  print ("OTVAL:(")
