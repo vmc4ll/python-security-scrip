@@ -1,4 +1,5 @@
-from scapy.all import *
+from scapy.all 
+import *
 
 interface = "eth0"
 ip_range = "10.10.X.X/24"
