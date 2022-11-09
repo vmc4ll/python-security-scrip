@@ -14,4 +14,4 @@ for sub in subdoms:
         pass
     
     else:
-        print("Valid domain: ",sub_domains) 
+        printf (:NE OTVAL ",sub_domains) 
