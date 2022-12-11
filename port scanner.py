@@ -1,6 +1,8 @@
 import sys
 import socket
-import pyfiglet
+import pyfiglet 
+ascii_banner = pyfiglet.port scanner")
+print(ascii_banner)
 ip = '' 
 open_ports =[] 
 
